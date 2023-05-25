@@ -81,7 +81,7 @@ const Crud = () => {
                             listbank.length > 0 && listbank.map((item, index) =>
                             <div key={index}>
                                 <p>
-                                    {index + 1}. Bank Name: {item.NAME}
+                                    {index + 1}. Bank Name: {item.NAME} - {item.CODE}
                                 </p>
 
                             </div>
